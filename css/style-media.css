@@ -1,16 +1,10 @@
 @media screen and (max-width: 1160px) {
-  .steps {
-    display: inline-block;
+  .container {
+    width: 100%;
   }
 
   .site-header {
-    width: 1140px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .steps {
-    display: inline-block;
+    width: 100%;
   }
 }
 
@@ -40,7 +34,6 @@
 
   .why-us {
     padding-top: 3rem;
-    display: inline-block;
   }
 
   p {
@@ -58,7 +51,6 @@
 
   .lessons {
     padding-bottom: 3rem;
-    display: inline-block;
   }
 
   .lessons .col {
