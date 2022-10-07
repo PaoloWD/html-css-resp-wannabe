@@ -13,3 +13,62 @@
     display: inline-block;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .row {
+    flex-direction: column;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .lessons,
+  header {
+    background-color: #232946;
+  }
+
+  .site-header {
+    padding-top: 3rem;
+    margin: 0;
+  }
+
+  h1 {
+    padding-bottom: 3rem;
+    margin: 0;
+  }
+
+  .why-us {
+    padding-top: 3rem;
+    display: inline-block;
+  }
+
+  p {
+    padding-bottom: 3rem;
+  }
+
+  .site-header,
+  .container {
+    max-width: 480px;
+  }
+
+  .steps {
+    margin: 0;
+  }
+
+  .lessons {
+    padding-bottom: 3rem;
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  .steps .col {
+    width: 100%;
+  }
+
+  .why-us .col {
+    width: 100%;
+  }
+}
