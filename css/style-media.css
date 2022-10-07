@@ -40,11 +40,6 @@
     padding-bottom: 3rem;
   }
 
-  .site-header,
-  .container {
-    max-width: 480px;
-  }
-
   .steps {
     margin: 0;
   }
