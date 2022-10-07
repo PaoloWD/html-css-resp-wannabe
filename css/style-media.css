@@ -1,0 +1,19 @@
+@media screen and (max-width: 1160px) {
+  .steps {
+    display: inline-block;
+  }
+
+  .site-header {
+    width: 1160px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .steps {
+    display: inline-block;
+  }
+
+  .site-header {
+    width: 1160px;
+  }
+}
